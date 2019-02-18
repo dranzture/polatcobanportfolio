@@ -7,7 +7,7 @@ import HomePage from './components/Home.vue'
 import AboutMe from './components/AboutMe.vue'
 import Samples from './components/Samples.vue'
 import Experience from './components/Experience.vue'
-
+import NotFound from './components/404.vue'
 
 Vue.config.productionTip = false
 
@@ -19,7 +19,8 @@ const router = new VueRouter({
     { path: '/', component: HomePage, name: 'Home' },
     { path:'/experience', component: Experience, name:'Experience'},
     { path: '/aboutme', component: AboutMe, name: 'AboutMe' },
-    { path: '/samples', component: Samples, name: 'Samples' }  
+    { path: '/samples', component: Samples, name: 'Samples' },
+    { path: '*', component: NotFound, name: 'NotFound' }
   ]
 })
 
