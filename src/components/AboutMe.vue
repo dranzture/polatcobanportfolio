@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <b-container>
+  <div class="container-fluid pt-5">
+    
       <h1>About Me</h1>
-    </b-container>
+    
   </div>
 </template>
 

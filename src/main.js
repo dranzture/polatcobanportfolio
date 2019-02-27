@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import 'animate.css';
 import 'bootstrap'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import VueRouter from 'vue-router'
@@ -8,7 +9,9 @@ import AboutMe from './components/AboutMe.vue'
 import Samples from './components/Samples.vue'
 import Experience from './components/Experience.vue'
 import NotFound from './components/404.vue'
+import NavigationBar from './components/LayoutComponents/NavigationBar.vue'
 
+Vue.component('navigation-Bar', NavigationBar);
 Vue.config.productionTip = false
 
 Vue.use(VueRouter);

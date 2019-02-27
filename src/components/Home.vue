@@ -1,9 +1,9 @@
 <template>
   <div>
     <div id="home-main" class="wrapper text-center">
-      <img id="profile-pic" src="https://picsum.photos/500/500">
-      <p class="pt-5 text-white">Welcome to Polat Coban's Portfolio!</p>
-      <p class="text-white">San Antonio, TX</p>
+        <img class="animated fadeInUpBig faster" id="profile-pic" src="https://picsum.photos/500/500">
+        <p class="pt-5 text-white animated fadeInUpBig faster">Welcome to Polat Coban's Portfolio!</p>
+        <p class="text-white animated fadeInUpBig faster">San Antonio, TX</p>
     </div>
   </div>
 </template>
@@ -28,6 +28,7 @@ export default {
   background: linear-gradient(to bottom, #2cafe3 0%,#49c0f0 0%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2cafe3', endColorstr='#49c0f0',GradientType=0 ); /* IE6-9 */
   position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+  overflow: hidden;
 }
 #profile-pic{
   border-radius: 50%;
