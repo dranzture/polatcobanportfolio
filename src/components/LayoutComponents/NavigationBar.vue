@@ -14,10 +14,10 @@
             </ul>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <router-link class="nav-link font-weight-bold" style="color:#33d1ff" to="/">Home</router-link>
+                    <router-link class="nav-link font-weight-bold" style="color:#2cafe3" to="/">Home</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link class="nav-link font-weight-bold" style="color:#33d1ff" to="/AboutMe">About Me</router-link>
+                    <router-link class="nav-link font-weight-bold" style="color:#2cafe3" to="/AboutMe">About Me</router-link>
                 </li>
             </ul>
           </div>
@@ -36,4 +36,9 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+
+div{
+  font-family: 'Julius Sans One', sans-serif;
+}
 </style>
