@@ -1,8 +1,6 @@
 <template>
-  <div>
-    <b-container>
-      <h1>Experience</h1>
-    </b-container>
+  <div class="container-fluid animated fadeInLeftBig faster m-0 p-0" id="main">
+    <router-view/>
   </div>
 </template>
 
@@ -17,4 +15,10 @@ export default {
 </script>
 
 <style>
+#sidebar{
+ height: 26rem;
+}
+#main{
+height: 100%;
+}
 </style>
