@@ -1,11 +1,12 @@
 <template>
   <div class="container-flud" id="home-main">
     <div class="row align-items-center text-center h-100">
-      <div class="col">
+      <div class="col mt-5">
         <img class="animated fadeInUpBig faster rounded-circle" src="https://picsum.photos/250/250">
         <p class="pt-2 text-white animated fadeInUpBig faster">Polat Coban</p>
         <hr class="animated fadeInUpBig faster">
         <p class="text-white animated fadeInUpBig faster">Software Developer, San Antonio, TX</p>
+        <p class="text-white animated fadeInUpBig faster">Contact: polatcoban@gmail.com</p>
       </div>
     </div>
   </div>
@@ -20,6 +21,11 @@ export default {
 </script>
 
 <style>
+/* @media (max-width: 576px) and (max-height: 500px) {
+  p {
+    font-size: 14px;
+  }
+} */
 #home-main {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2cafe3+0,49c0f0+0 */
   background: #2cafe3; /* Old browsers */

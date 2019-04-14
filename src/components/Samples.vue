@@ -1,8 +1,8 @@
 <template>
-  <div class="container-fluid pl-0 pr-0 ml-0 mr-0 mt-5 pt-2">
+  <div class="container-fluid pl-0 pr-0 ml-0 mr-0 mt-5 pt-2 animated fadeInUpBig faster">
     <div class="row">
-      <div class="col-sm-12 col-med-2 col-lg-2" id="navColumn">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 pl-1 pr-1">
+      <div class="col-sm-12 col-med-2 col-lg-2 w-100" id="navColumn">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light pl-1 pr-1">
           <button
             class="navbar-toggler w-100"
             type="button"
@@ -48,11 +48,11 @@
         class="col-sm-12 col-med-10 col-lg-10 d-flex justify-content-center mt-4"
         id="sampleContainer"
       >
-        <div class="container w-100">
+        <div class="container-fluid w-75" id="mainView">
           <h3>Registering a User</h3>
           <p
             style="font-size:15px"
-          >In this sample, we will register an user to our MongoDB through ExpressJS API's on cloud.</p>
+          >In this sample, we will register a user to our MongoDB through ExpressJS API's on cloud.</p>
           <div class="container p-0">
             <form id="formElements" class="sample p-4" @submit.prevent>
               <div class="form-group">
@@ -137,6 +137,7 @@
           </p>
           <div class="container p-0">
             <b-table
+              class="table-responsive-lg"
               hover
               selectable
               select-mode="single"
@@ -220,6 +221,7 @@
           </p>
           <div class="container p-0">
             <b-table
+              class="table-responsive-lg"
               hover
               selectable
               select-mode="single"
@@ -434,6 +436,7 @@
           </p>
           <div class="container p-0">
             <b-table
+              class="table-responsive-lg"
               hover
               selectable
               select-mode="single"
@@ -530,6 +533,7 @@
           </p>
           <div class="container p-0">
             <b-table
+              class="table-responsive-lg"
               hover
               selectable
               select-mode="single"
@@ -884,6 +888,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+div {
+  overflow: hidden;
+}
 @media (min-width: 576px) {
   #formElements {
     position: inherit;
@@ -894,7 +901,10 @@ export default {
     min-width: 10%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
+  #mainView {
+    width: 50%;
+  }
   #formElements {
     position: inherit;
     left: 20%;
@@ -905,15 +915,12 @@ export default {
   }
 }
 @media (min-width: 992px) {
-  div {
-    overflow-x: hidden;
-  }
   #sampleContainer {
     margin-left: 20%;
   }
   #navColumn {
     background-color: #f8f9fa;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     z-index: 1;
   }
