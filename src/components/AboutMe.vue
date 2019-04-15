@@ -12,16 +12,16 @@
             in computer science from St. Mary’s University.
             My passion is to create systems to enable people to
             fulfill their needs. While in college,
-            i found learning aspects of computer science
+            I found learning aspects of computer science
             and related fields, such as electrical engineering,
             thrilling and inspiring. Since graduation,
             I have been working as a software developer in Boerne, TX.
-            During my career, i have worked with a wide range of
+            During my career, I have worked with a wide range of
             platforms and languages (C#, SQL, WCF, Windows Forms,
             UWP, XML, Java, JS, MangoDB, PostgreSQL).Recently,
-            i have been focusing on becoming a Full Stack Engineer
+            I have been focusing on becoming a Full Stack Engineer
             using systems such as SQL,ExpressJS,Vue-CLI, and
-            NodeJS Stack. Along with these technologies, i
+            NodeJS Stack. Along with these technologies, I
             have special interests in Machine Learning
             and Artificial Intelligence.
             <br>&nbsp; Aside from my career,
