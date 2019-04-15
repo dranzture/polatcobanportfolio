@@ -1,11 +1,12 @@
 import axios from 'axios'
+const url = "https://polatcoban-portfolio-backend.herokuapp.com/";
 
 export default {
     getUser() {
-        return axios.get('http://192.168.1.69:3000/user')
+        return axios.get(url + 'user')
     },
     postUser(user) {
-        return axios.post('http://192.168.1.69:3000/user', {
+        return axios.post(url + 'user', {
             first_name: user.first_name,
             last_name: user.last_name,
             age: user.age,
@@ -36,16 +37,16 @@ export default {
                 value: user.state
             }
         ];
-        return axios.patch('http://192.168.1.69:3000/user/' + user.id, payload);
+        return axios.patch(url + 'user/' + user.id, payload);
     },
     deleteUser(id) {
-        return axios.delete('http://192.168.1.69:3000/user/' + id);
+        return axios.delete(url + 'user/' + id);
     },
     getJWT() {
-        return axios.get('http://192.168.1.69:3000/token')
+        return axios.get(url + 'token')
     },
     protected_postUser(user, token) {
-        return axios.post('http://192.168.1.69:3000/protectedrouteuser', {
+        return axios.post(url + 'protectedrouteuser', {
             first_name: user.first_name,
             last_name: user.last_name,
             age: user.age,
@@ -81,7 +82,7 @@ export default {
                 value: user.state
             }
         ];
-        return axios.patch('http://192.168.1.69:3000/protectedrouteuser/' + user.id, payload, {
+        return axios.patch(url + 'protectedrouteuser/' + user.id, payload, {
             headers: {
                 "Content-Type": "application/json",
                 "authorization": "Bearer " + token
@@ -89,7 +90,7 @@ export default {
         })
     },
     protected_deleteUser(id, token) {
-        return axios.delete('http://192.168.1.69:3000/protectedrouteuser/' + id,
+        return axios.delete(url + 'protectedrouteuser/' + id,
             {
                 headers: {
                     "Content-Type": "application/json",

@@ -18,7 +18,7 @@
       <div id="navbarNavDropdown" class="navbar-collapse collapse">
         <ul class="navbar-nav mr-auto">
           <li>
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="https://www.linkedin.com/in/polat-%C3%A7oban-b9951b70/">
               <img width="30" height="30" src="./linkedinIco.svg" alt="linkedinIcon">
             </a>
           </li>

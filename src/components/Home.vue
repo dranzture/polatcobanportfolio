@@ -2,7 +2,11 @@
   <div class="container-flud" id="home-main">
     <div class="row align-items-center text-center h-100">
       <div class="col mt-5">
-        <img class="animated fadeInUpBig faster rounded-circle" src="https://picsum.photos/250/250">
+        <img
+          class="animated fadeInUpBig faster rounded-circle"
+          src="./pictures/polat1.jpg"
+          height="300px"
+        >
         <p class="pt-2 text-white animated fadeInUpBig faster">Polat Coban</p>
         <hr class="animated fadeInUpBig faster">
         <p class="text-white animated fadeInUpBig faster">Software Developer, San Antonio, TX</p>
