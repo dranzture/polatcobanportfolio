@@ -19,7 +19,7 @@
       <br>
       <div class="media border rounded">
         <div class="media-body m-3 pt-3">
-          <h2>Online Work Order Project</h2>
+          <h2>Device Magic Integration into Billing Project</h2>
           <ul>
             <li>Developed interfaces with use of Windows Forms and Component One tools.</li>
             <li>Created HTTPS requests to Device Magic servers to retrieve data in JSON and XML.</li>
